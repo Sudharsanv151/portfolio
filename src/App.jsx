@@ -1,12 +1,11 @@
+import Home from './assets/components/Home'
 
-import './App.css'
-
-
-
-  return (
-    <>
-      
-    </>
-  )
+const App=()=>{
+  return(
+    <div>
+      <Home />
+    </div>
+  );
+};
 
 export default App
