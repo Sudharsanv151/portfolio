@@ -1,8 +1,9 @@
+
 import Home from './assets/components/Home'
 
 const App=()=>{
   return(
-    <div>
+    <div> 
       <Home />
     </div>
   );
