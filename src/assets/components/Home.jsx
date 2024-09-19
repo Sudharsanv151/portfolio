@@ -17,7 +17,7 @@ const Home=()=>{
             </p>
             {/* <img src={Prpic} alt="profile-pic"className="h-1/4 w-1/4  justify-center flex"></img> */}  
         {/* </div> */} 
-        <div class="w-2/4 h-2/5 py-8 my-20 ml-auto p-15 bg-gradient-to-l from-slate-300 to-slate-100 text-slate-600 border border-slate-300 grid grid-col-2 justify-center p-4 gap-4 rounded-lg shadow-md">
+        <div class="w-2/4 h-2/5 py-8 my-20 ml-auto p-15 bg-gradient-to-l from-slate-300 to-slate-100 text-slate-600 border border-slate-300 grid grid-col-2 justify-center p-4 gap-4 rounded-lg shadow-md animate-none">
   <div class="col-span-2 text-3xl font-bold capitalize rounded-md">
     ABOUT ME 
   </div>
@@ -26,8 +26,8 @@ const Home=()=>{
             learning, and computer vision. Proficient in Java, Python, and MySQL. Eager to leverage technical expertise and leadership
             experience to contribute to cutting-edge IT solutions.
   </div>
-  <div class="col-span-1 flex-row">
-    <a href="https://sudharsanv151.github.io/" target="_blank">
+  <div class="col-span-1 flex-row animate-pulse">
+    <a href="https://drive.google.com/file/d/1h7TOUYgkUi1rHNDjbccdjxAICoDRsnW4/view?usp=sharing" target="_blank">
         <button class="rounded-md bg-slate-300 mr-20 flex-row flex hover:bg-slate-600 hover:text-slate-200 duration-300 p-2">
             <p className="mr-2">Resume</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
