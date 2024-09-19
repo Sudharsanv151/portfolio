@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 @layer base {
-    body {
-      @apply min-h-screen bg-gradient-to-r from-[#8E0E00] to-[#1F1C18];
-    }
+  body {
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
   }
