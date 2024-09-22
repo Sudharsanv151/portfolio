@@ -2,11 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    background-image: url('../img/bg.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  }
+.bg-color{
+    background-color:rgba(239, 68, 68, 1)
+}
+
+
+.mobile-nav{
+  @apply fixed top-12 bg-gray-500 w-full left-0 ;
+}
+
+.mobile-nav li{
+    @apply w-full text-center border-b-2 h-full;
+}

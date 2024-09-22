@@ -5,12 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        'gradient-start': '#8E0E00',
-        'gradient-end': '#1F1C18',
-      },
+    extend: {},
+    fontFamily:{
+      'home-font':'Anton SC',
+      'para-font':'Inria Sans'
+    }
   },
   plugins: [],
-}
 }
