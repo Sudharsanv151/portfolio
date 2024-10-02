@@ -2,15 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-color{
-    background-color:rgba(239, 68, 68, 1)
+.bg-color {
+    background-color: rgba(239, 68, 68, 1);
 }
 
-
-.mobile-nav{
-  @apply fixed top-12 bg-gray-500 w-full left-0 ;
+.mobile-nav {
+    @apply fixed top-12 bg-gray-500 w-full left-0;
 }
 
-.mobile-nav li{
+.mobile-nav li {
     @apply w-full text-center border-b-2 h-full;
 }
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+    to {
+        width: 79%;
+    }
+}
+
+@keyframes cursor {
+    30% {
+        border-color: transparent;
+    }
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-bg {
+  background: linear-gradient(270deg, #060c1a, #020617, #020617); /* Replace with desired colors */
+  background-size: 400% 400%;
+  animation: gradient-animation 4s ease-in-out infinite; /* Adjust duration as needed */
+}
+
