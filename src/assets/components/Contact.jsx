@@ -9,7 +9,7 @@ const Contact = () => {
             <div
                 className="flex flex-col items-center justify-center h-screen bg-slate-950">
                 <h1 className="text-5xl text-white font-home-font pb-10"> Contact Me </h1>
-                <div class=" w-2/4 mx-auto bg-slate-800 rounded-lg shadow-md p-4 font-para-font">
+                <div class=" w-2/4 mx-auto bg-slate-800 rounded-lg  p-4 font-para-font shadow-2xl shadow-slate-500/20 border-1 animate-gradient ">
                     <form>
                         <div class="mb-4">
                             <label class="block mb-2 text-gray-50" for="name"> Name </label>

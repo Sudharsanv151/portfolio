@@ -21,8 +21,8 @@ const Projects = () => {
       <h1 className="text-slate-300 pt-4 text-5xl font-home-font text-center">My Projects </h1>
       <div className="flex flex-row  gap-16  h-screen bg-slate-950 font-para-font content-center justify-center">
 
-        <div class="flex justify-center items-center min-h-screen">
-          <div class="max-w-[720px] mx-auto">
+        <div class="flex justify-center items-center min-h-screen ">
+          <div class="max-w-[720px] mx-auto shadow-2xl shadow-slate-500/20 border-1 animate-gradient">
             <div class="block mb-4 mx-auto  border-slate-300 pb-2 max-w-[360px]">
               <a
                 target="_blank"
@@ -67,7 +67,7 @@ const Projects = () => {
           </div>
         </div>
         <div class="flex justify-center items-center min-h-screen">
-          <div class="max-w-[720px] mx-auto">
+          <div class="max-w-[720px] mx-auto shadow-2xl shadow-slate-500/20 border-1 animate-gradient">
             <div class="block mb-4 mx-auto border-slate-300 pb-2 max-w-[360px]">
               <a
                 target="_blank"
@@ -110,7 +110,7 @@ const Projects = () => {
           </div>
         </div>
         <div class="flex justify-center items-center min-h-screen">
-          <div class="max-w-[720px] mx-auto">
+          <div class="max-w-[720px] mx-auto shadow-2xl shadow-slate-500/20 border-1 animate-gradient">
             <div class="block mb-4 mx-auto  border-slate-300 pb-2 max-w-[360px]">
               <a
                 target="_blank"

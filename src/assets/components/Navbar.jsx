@@ -5,7 +5,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-slate-950">
-      <div className="flex justify-between items-center mx-16 mt-10  px-7 py-3 bg-slate-800 shadow-2xl rounded-xl sticky top-0 z-50">
+      <div className="flex justify-between items-center mx-16 mt-10  px-7 py-3 bg-slate-800 shadow-2xl shadow-slate-500/20 border-1 animate-gradient rounded-xl sticky top-0 z-50">
 
         <a href="#home" className="text-2xl font-bold text-white">
           Sudharsan V
